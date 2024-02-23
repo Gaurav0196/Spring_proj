@@ -5,7 +5,7 @@ import com.crudDemo.cruddemo.dao.entity.Student;
 import java.util.List;
 
 public interface StudentService {
-    void save(Student student);
+    void save(Student student); //Saving Student Records
 
     Student findById(Integer id);
 
